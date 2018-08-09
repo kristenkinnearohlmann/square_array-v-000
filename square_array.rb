@@ -4,5 +4,5 @@ def square_array(array)
   #     array[array.index(number)] = number**2
   # end
   newarray = array.collect{|number| number**2}
-  puts newarray
+  puts array
 end
