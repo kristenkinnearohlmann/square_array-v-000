@@ -3,6 +3,6 @@ def square_array(array)
   # array.each do |number|
   #     array[array.index(number)] = number**2
   # end
-  array.collect{|number| number**2}
-  puts array
+  newarray = array.collect{|number| number**2}
+  puts newarray
 end
